@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form 3</title>
+    </head>
+
+    <body>
+        <h3>Complex form</h3>
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone">
+            <label for="DOB">Date of Birth</label>
+            <input type="date" id="DOB">
+            <span>Gender</span>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female">
+            <label for="country">Country</label>
+            <select name="country" id="country" placeholder="Choose country">
+                <option value="1">India</option>
+                <option value="2">United States</option>
+                <option value="3">Phillipines</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <label for="street">Street</label>
+            <input type="text" id="street">
+            <label for="city">City</label>
+            <input type="text" id="city">
+            <label for="States">State</label>
+            <input type="text" id="States">
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip">
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+            <label for="terms">I agree to the terms of service</label>
+            <input type="checkbox" id="terms">
+        </fieldset>
+        <input type="submit" value="Submit" id="submit">
+    </body>
+</html>
